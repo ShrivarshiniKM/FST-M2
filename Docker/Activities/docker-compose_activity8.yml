@@ -3,7 +3,7 @@ services:
   postgres:
     image: docker.io/postgres
     environment:
-      - POSTGRES_PASSWORD=postgres_password
+      - POSTGRES_PASSWORD=postgresPassword
   # Redis Database
   redis:
     image: docker.io/redis
