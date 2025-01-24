@@ -1,0 +1,7 @@
+Activity1
+vim txtFile.txt
+vim csvFile.csv
+hdfs dfs -mkdir /user/shrivarshini
+hdfs dfs -put txtFile.txt /user/shrivarshini
+hdfs dfs -put csvFile.csv /user/shrivarshini
+hdfs dfs -ls /user/shrivarshini
